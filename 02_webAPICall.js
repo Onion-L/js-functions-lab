@@ -10,7 +10,3 @@ fetch("https://randomuser.me/api/?results=6")
     console.log(err);
   });
  
-
-  fetch('https://jsonplaceholder.typicode.com/posts')
-      .then(response => response.json())
-      .then(json => console.log(json))
